@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = null;
+    Layout = "_Layout";
     List<Pizza> pizze = new() { new Pizza("Margherita", "Pomodoro, mozzarella, basilico e origano", "/img/pizza-margherita-originale-Scatti-di-Gusto-640x335.jpg", 5.40f), new Pizza("Siciliana", "Pomodoro, mozzarella, olive e acciughe", "/img/sicilian-sfincione-pizza-800x530.jpg", 6.50f), new Pizza("Quattro stagioni", "Pomodoro, mozzarella, prosciutto, carciofi, olive e funghi", "/img/147574919_s.jpg", 6.50f), new Pizza("Marinara", "Pomodoro, aglio e olio d'oliva", "/img/images.jpeg", 4.50f) };
 }
 
@@ -12,14 +12,8 @@
     <title>Pizzeria</title>
 </head>
 <body class="bg-light">
-    <nav class="navbar bg-white">
-        <div class="container">
-            <h2 class="navbar-brand mb-0 h1">Pizzeria Veneta</h2>
-        </div>
-    </nav>
-
     <main>
-        <div class="container mt-4">
+        <div class="container-fluid">
             <table class="table bg-white">
                 <thead>
                     <tr>
