@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "la-mia-pizzeria-static", "la-mia-pizzeria-static\la-mia-pizzeria-static.csproj", "{8FEAEA5B-894A-4BF9-A18D-08B730EA808A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "la-mia-pizzeria-static", "la-mia-pizzeria-static\la-mia-pizzeria-static.csproj", "{8FEAEA5B-894A-4BF9-A18D-08B730EA808A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj", "{F7C3499A-7974-4FBE-B2F3-C2192268642D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8FEAEA5B-894A-4BF9-A18D-08B730EA808A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FEAEA5B-894A-4BF9-A18D-08B730EA808A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FEAEA5B-894A-4BF9-A18D-08B730EA808A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C3499A-7974-4FBE-B2F3-C2192268642D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C3499A-7974-4FBE-B2F3-C2192268642D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C3499A-7974-4FBE-B2F3-C2192268642D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C3499A-7974-4FBE-B2F3-C2192268642D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
