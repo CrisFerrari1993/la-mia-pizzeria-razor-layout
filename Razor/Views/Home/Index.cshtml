@@ -76,7 +76,7 @@ Stampare dentro uno span il risultato.
     <h3>Sesto esercizio: a</h3>
     <span>@oneWeekAgo</span>
     <h3>Sesto esercizio: b</h3>
-    <span>@now.DayOfWeek</span>
+    <span>@now.ToString("dddd", new System.Globalization.CultureInfo("it-IT"))</span>
     <h3>Sesto esercizio: c</h3>
-    <span>@now.AddDays(365).DayOfWeek</span>
+    <span>@now.AddDays(365).ToString("dddd", new System.Globalization.CultureInfo("it-IT"))</span>
 </div>
